@@ -14,17 +14,13 @@ sudo apt-get install libboost-all-dev
 二、编译
 1.需要向github账号上传SSH
 git clone --recursive git@github.com:leggedrobotics/darknet_ros.git
-cd ../
-
-如果要修改成GPU版本
-
+cd darnet_ros/darknet
+如果是GPU版本要修改makefile 
 GPU=1
 CUDNN=1
 OPENCV=1(因为ros有opencv 这里改为0就不用另外再装opencv了)
 OPENMP=1
-
-加上-gencode arch=compute_60,code=[sm_60,compute_60]
-
+加上-gencode arch=compute_60,code=[sm_60,compute_60]（和显卡性能系数有关 这是1060的）
 在该文件夹终端make
 
 cd catkin_ws/src/darknet_ros/
