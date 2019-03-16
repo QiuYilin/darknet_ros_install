@@ -19,7 +19,7 @@ git clone --recursive git@github.com:leggedrobotics/darknet_ros.git
 如果是GPU版本要修改makefile
 ```
 cd darnet_ros/darknet
-
+gedit makefile
 ```
 ```
 GPU=1
