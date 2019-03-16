@@ -15,9 +15,12 @@ sudo apt-get install libboost-all-dev
 1.需要向github账号上传SSH
 ```
 git clone --recursive git@github.com:leggedrobotics/darknet_ros.git
-cd darnet_ros/darknet
 ```
-如果是GPU版本要修改makefile 
+如果是GPU版本要修改makefile
+```
+cd darnet_ros/darknet
+
+```
 ```
 GPU=1
 CUDNN=1
