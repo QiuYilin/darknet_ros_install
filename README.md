@@ -1,5 +1,6 @@
-# darknet_ros_install
+# darknet_ros install and prepare data
 reference URL：https://github.com/leggedrobotics/darknet_ros
+https://zhuanlan.zhihu.com/p/42124636
 
 一、依赖
 1.opencv
