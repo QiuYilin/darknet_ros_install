@@ -3,6 +3,7 @@ reference URL：
 ```
 https://github.com/leggedrobotics/darknet_ros
 https://zhuanlan.zhihu.com/p/42124636
+https://www.cnblogs.com/tango1221/p/10084969.html
 ```
 一、依赖
 1.opencv
